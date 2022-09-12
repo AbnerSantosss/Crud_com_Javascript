@@ -1,0 +1,249 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#spoiler {
+  display: none;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+
+body {
+  font-size: 1.6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: linear-gradient(to right top, #7a072a, #5a0f33, #38142f, #1b1120, #020202);
+  height: 100vh;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem auto;
+  width: 90.0rem;
+  color: antiquewhite;
+}
+
+
+.image{
+  width: 22.0rem;
+  margin: 0 auto;
+}
+
+
+.image img{
+  width: 100%;
+}
+
+
+.page h1{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.form-one {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.0rem;
+  gap: 2.0rem;
+}
+
+
+.form-one input{
+  padding: 1.3rem;
+  display: flex;
+}
+
+
+.form-one button {
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  background: #410217fe;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+}
+
+
+tr{
+  display: flex;
+  padding-top: 1.0rem;
+  padding-bottom: 2.0rem;
+  border: 1px solid rgba(255, 255, 255, 0.346);
+}
+
+
+table tr th{
+  margin-left: 9.4rem;
+}
+
+
+td {
+ font-size: 22px;
+ text-transform: uppercase;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ text-align: center;
+ width: 100%;
+}
+
+
+button {
+  font-size: 1.5rem;
+  padding: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #ffff;
+  color: #410217fe;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 1px;
+}
+
+
+#counter {
+  font-weight: bold;
+  margin-left: 1.8rem;
+}
+
+
+#saveEdit input{
+  display: flex;
+}
+
+
+
+
+
+#spoiler {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  background: #7a0729d7;
+}
+.form-content{
+  width: 24.2rem;
+  margin: 21.9rem auto;
+}
+  
+
+.form-content form{
+  display: flex;
+  flex-direction: column;
+  gap: 2.0rem;
+}
+
+
+.form-content form a{
+  cursor: pointer;
+}
+
+
+.form-content form p {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+.form-content form button {
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  background: #410217fe;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+}
+
+
+#spoiler input{
+  padding: 1.1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

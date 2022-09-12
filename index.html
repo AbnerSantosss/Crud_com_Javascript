@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Kata 2022 - Meus Favoritos</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="image">
+      <img src="./img/logo copa do mundo.webp" alt="logomarca da copa do mundo fifa 2022">
+    </div>
+    <h1>Adicione seus paises favoritos da copa do mundo do Katar 2022!</h1>
+    <form class="form-one" action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+      <input type="text" id="add-name" autocomplete="off" placeholder="Digite aqui seu país favorito ">
+      <button value="Adicionar">Adicionar</button>
+    </form>
+    <div id="spoiler" role="aria-hidden">
+      <div class="form-content">
+        <form action="javascript:void(0);" method="POST" id="saveEdit">
+          <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+          <p>Digite Um Novo Nome</p>
+          <input type="text" autocomplete="off" id="edit-name">
+          <button value="Editar" onclick="CloseInput()">Editar</button>
+        </form>
+      </div>
+    </div>
+    <p id="counter"></p>
+    <table>
+      <tr>
+        <th>NOMES PAÍSES</th>
+      </tr>
+      <tbody id="countries">
+      </tbody>
+    </table>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
