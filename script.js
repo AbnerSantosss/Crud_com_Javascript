@@ -3,7 +3,7 @@ var app = new (function () {
 
   document.getElementById('spoiler').style.display = 'none' //Vai esconder o modal ao iniciar o projeto
 
-  this.countries = []
+  this.countries = [] //Array iniciado vazio (tabela de paises para receber a adição do usuario)
 
   this.Count = function (data) {
     var el = document.getElementById('counter')
@@ -19,7 +19,7 @@ var app = new (function () {
     }
   }
 
-  // Caregar a lista de paises
+  // Caregar a lista de paises que estão no array
   this.FetchAll = function () {
     var data = ''
 
