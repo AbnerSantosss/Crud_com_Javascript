@@ -9,7 +9,7 @@
 > * Trabalhamos o conceito de Crud (Create, Read, Update, Delete)
 >
 > * Adicionei uma verificação que pergunta se o usuario realmente deseja deletar o país
-> * Fiz um modal que aparece na tela quando for editar os nomes
+> * Estilizei o modal que aparece na tela quando for editar os nomes
 > > >Utilizei o position absolute junto com o inset para centralizar o modal! 
 > * Ultilizamos tabelas para renderizar os dados
 
