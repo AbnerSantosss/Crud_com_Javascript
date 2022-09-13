@@ -1,6 +1,6 @@
 <div align="center">
  <h1> Projeto CRUD Favoritos da Copa </h1>
- <p>Projeto que foi aprendido  no campinho digital(ong que faço parte) nele fizemos um crud simples, além disso eu estilizei o projeto para praticar Html e Css</P>
+ <p>Projeto que foi aprendido  no campinho digital(ong que faço parte) nele fizemos um crud simples, além disso dei um toque pessoal, estilizei o projeto para praticar Html e Css</P>
  </div>
 
 
