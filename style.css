@@ -52,7 +52,7 @@ body {
 .form-one {
   display: flex;
   justify-content: center;
-  margin-top: 2.0rem;
+  margin-top: 3.3rem;
   gap: 2.0rem;
 }
 
@@ -114,7 +114,7 @@ button {
 
 #counter {
   font-weight: bold;
-  margin-left: 1.8rem;
+  margin: 1.7rem 1.6rem;
 }
 
 
@@ -207,7 +207,7 @@ button {
 
   table tr th {
     font-size: 1.1rem;
-    margin-left: 1px;
+    margin-left: 15px;
   }
 
 button {
@@ -218,8 +218,10 @@ button {
 
 #counter {
   font-weight: bold;
-  margin: 20px 18px 18px;
+  margin: 1.6rem 1.1rem;
+  font-size: 1.0rem;
 }
+ 
 
 .form-one button {
   padding: 8px;

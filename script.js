@@ -48,16 +48,16 @@ var app = new (function () {
       this.countries.push(country.trim())
       //Redefinir valor de entrada
       el.value = ''
-      // Mostra a nova lista
+      //Carrega a nova lista atualizada
       this.FetchAll()
     }
   }
 
   this.Edit = function (item) {
     var el = document.getElementById('edit-name')
-    // Exibe o valor no campo
+    // Exibe o valor no campo na posição recebida no (item)
     el.value = this.countries[item]
-    // Mostra os campos
+    // Muda o style do display, para block mostrando os campos que estão com display none
     document.getElementById('spoiler').style.display = 'block'
     self = this
 
